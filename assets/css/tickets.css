@@ -1,0 +1,120 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #f8e0fb;
+	font-family: "Nunito";
+	background-image: url('ticket_bg.jpg');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+h1{
+	color: #EA1C2C;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+
+.box{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #f498b8;
+	text-align: center;
+	border-radius: 13%;
+}
+
+.box input[type='name'], .box input[type='email']{
+	border: 0;
+	background: none;
+	display: block;
+	margin:20px auto;
+	text-align: center;
+	border: 2px solid #f8e0fb;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color:black;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+
+.box input[type='email']:focus, .box input[type='name']:focus{
+	width: 280px;
+	border-color: white;
+}
+
+.box input[type='submit']{
+	border: 0;
+	background: none;
+	display: block;
+	margin:20px auto;
+	text-align: center;
+	border: 2px #f8e0fb;
+	padding: 14px 40px;
+	/*width: 200px;
+*/	outline: none;
+	color:#EA1C2C;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+
+.box input[type='submit']:hover{
+	background: #f8e0fb;
+}
+
+.selector label{
+	margin: 20px;
+	text-transform: uppercase;
+}
+
+select{
+	background: #f498b8;
+	border: 1px solid white;
+	border-radius: 20%;
+	width: 50px;
+	outline: none;
+	height: 30px;
+	font-size: 15px
+	margin: 30px auto;
+	padding: 5px;
+	color: white;
+}
+
+select:active{
+	outline: none;
+}
+
+
+
+
+/*Nav Bar Pure CSS*/
+.nav{
+	height: 50px;
+	max-width: 100%;
+	background: #f498b8;
+	position: relative;
+}
+
+.nav > .nav-header{
+	display: inline;
+}
+
+.nav > .nav-header > .nav-title{
+	display: inline-block;
+	color: #EA1C2C;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 1.5rem;
+}
+
+.nav > .nav-header > .nav-title:hover{
+	color: #EA1C2C;
+	font-size: 2rem;
+	transition: .3s;
+}
